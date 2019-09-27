@@ -130,7 +130,7 @@ async def amireallyalive(alive):
                      "I iz behind you master !! \n\n"
                      f"Telethon version: {version.__version__} \n"
                      f"Python: {python_version()} \n"
-                     f"Owner: Spyder #DerpGang"
+                     f"Owner: iNtimicY"
                      "`")
 
 
