@@ -8,12 +8,13 @@ RUN sed -e 's;^#http\(.*\)/v3.9/community;http\1/v3.9/community;g' -i /etc/apk/r
 
 # Installing Python
 RUN apk add --no-cache --update \
-    bash \
+        bash \
     build-base \
     bzip2-dev \
     curl \
     figlet \
     gcc \
+    g++ \
     git \
     sudo \
     aria2 \
@@ -31,27 +32,19 @@ RUN apk add --no-cache --update \
     musl \
     neofetch \
     openssl-dev \
-    php-pgsql \
     postgresql \
     postgresql-client \
     postgresql-dev \
-    py-lxml \
-    py-pillow \
-    py-pip \
-    py-psycopg2 \
-    py-requests \
-    py-sqlalchemy \
-    py-tz \
-    py3-aiohttp \
-    python-dev \
     openssl \
     pv \
     jq \
     wget \
+    python \
     python3 \
     python3-dev \
     readline-dev \
     sqlite \
+    ffmpeg \
     sqlite-dev \
     sudo \
     zlib-dev
